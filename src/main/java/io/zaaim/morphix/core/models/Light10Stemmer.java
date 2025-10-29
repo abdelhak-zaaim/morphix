@@ -2,7 +2,8 @@ package io.zaaim.morphix.core.models;
 
 import common.manage_errors.Errors;
 
-import safar.basic.morphology.stemmer.util.Utilities;
+import io.zaaim.morphix.core.morphology.stemmer.IStemmer;
+import io.zaaim.morphix.core.morphology.stemmer.util.Utilities;
 
 import java.io.BufferedReader;
 import java.io.File;
